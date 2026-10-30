@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spidy</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitcount+Prop+Double:wght@100..900&family=Georama:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>SPIDER-MAN</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section id="vdo">
+        <video id="sp-vdo" class="video" src="./images/bg-vdo.mp4" muted ></video>
+    </section>
+    <section id="hero">
+        <div class="wrapper">
+            <div class="hero-content">
+                <p class="one"> YOUR FRIENDLY NEIGHBORHOOD</p>
+                <h1>SPIDER-MAN</h1>
+                <P class="two">THE CITY NEED A HERO.</P>
+                <button class="btn">EXPLORE</button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="wrapper">
+            <div class="about-content"><h1>THE MAN BEHIND THE MASK</h1><hr>
+                <div class="container">
+                    <div class="left"><img src="./images/peter.jpeg" alt=""></div>
+                    <div class="right">
+                        <h2>PETER PARKER</h2>
+                        <hr>
+                        <p class="one">Ordinary life <br> Extraordinary power.</p>
+                        <p class="two">Peter parker is a young hero trying to protect his city...</p>
+                        <button class="btn">DISCOVER HIS STORY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="intro">
+        <video id="intro-vdo" src="images/intro-vdo.mp4"  muted  autoplay></video>
+        
+        <h1 id="spidy">SPIDER-MAN</h1>
+        <button id="btn">Enter the city</button>
+    </div>
+
+    <script>
+
+        window.addEventListener("load",function(){
+            
+                setTimeout(()=>{
+                    document.getElementById('intro-vdo').classList.add("show")
+                },100)
+                setTimeout(()=>{
+                    document.getElementById('intro-vdo').classList.remove("show")
+                },4500)
+              
+                
+                setTimeout(()=>{
+                    document.getElementById('spidy').classList.add("show")
+                },4800)
+
+                setTimeout(()=>{
+                    document.getElementById('spidy').classList.remove("show")
+                },6500)
+                setTimeout(()=>{
+                    document.getElementById('btn').classList.add("show")
+                },7000)
+              
+                document.getElementById('btn').addEventListener('click',()=>{
+                    document.getElementById("intro").classList.add("hide");
+                })
+
+       
+        })
+
+        const bg = document.getElementById('sp-vdo')
+        let isPlay=true
+        let time;
+       window.addEventListener("wheel",function(){
+        // document.getElementById("intro").play()
+            if (isPlay) {
+                 bg.play()
+            }
+            clearTimeout(time)
+
+            time=setTimeout(()=>{
+                bg.pause();
+            },200)
+           
+        })
+    </script>
+</body>
+</html>
