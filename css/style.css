@@ -4,6 +4,11 @@
     /* overflow: hidden; */
     color: white;
 }
+h3 {
+    font-size: 18px;
+    font-family: 'Orbitron';
+    font-weight: 900;
+}
 a {
     text-decoration: none;
     font-family: 'Georama';
@@ -109,7 +114,8 @@ section#vdo video {
 }
 .about-content h1 {
     text-align: center;
-    
+    font-family: "Orbitron" ;
+    font-weight: 700;
 }
 .about-content hr {
     width: 500px;
@@ -119,7 +125,8 @@ section#vdo video {
 .about-content div.container {
     display: flex;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    margin-top: 50px;
     justify-content: space-evenly;
     align-items: center;
     
@@ -340,4 +347,694 @@ section#vdo video {
     cursor: pointer;
     background-color: red;
     color: white;
+}
+
+
+#villans {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(5, 5, 34, 0.542);
+}
+
+#villans div.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#villans h1 {
+    margin-top: 40px;
+    font-size: 28px;
+    font-family: "Orbitron" ;
+    font-weight: 900;
+}
+#villans h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Orbitron",'Open Sans';
+}
+
+#villans ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+}
+#villans ul li {
+    width: 23%;
+    height: 400px;
+    /* background: red; */
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#villans button {
+    width: 150px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.836);
+    border: 1px solid black;
+    margin-top: 40px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+#villans ul li img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: 0.5s;
+    opacity: 65%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#villans ul li img:hover {
+    transform: scale(1.1);
+}
+
+
+#villans button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#legacy {
+    width: 100%;
+    height: 100vh;
+     background-color: rgba(5, 5, 34, 0.542);
+}
+
+#legacy div.container {
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+#legacy div.container h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Orbitron" ;
+    font-weight: 600;
+}
+#legacy div.container p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#legacy ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#legacy ul li {
+    width: 28%;
+    height: 500px;
+    /* background: red; */
+}
+#legacy ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(201, 195, 195, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: 0.5s;
+    opacity: 75%;
+}
+#legacy ul li img:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    
+}
+
+span {
+    font-size: 13px;
+    font-family: 'Orbitron';
+    font-weight: 100;
+}
+section#spider-verse {
+    width: 100%;
+    height: 100vh;
+    background: #090914;
+}
+#spider-verse div.container {
+    width: 100%;
+    height: 100%;
+
+}
+
+#spider-verse div.container h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+     font-family: 'Orbitron';
+     font-weight: 400;
+}
+
+#spider-verse div.container h1 {
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Orbitron';
+    font-weight: 600;
+}
+#spider-verse div.container p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#spider-verse div.container ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+#spider-verse div.container ul li {
+    width: 30%;
+    
+}
+#spider-verse div.container ul li img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: oklab(74.68900000000001% 0.02879 -0.11953 / 0.15) 1.95px 1.95px 2.6px;
+}
+#spider-verse div.container .bottom {
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 80px;
+}
+#spider-verse div.container button {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px auto 0 auto;
+    background-color: #0909140c;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: block;
+
+
+}
+
+
+
+
+
+
+/* =================================
+   TABLET RESPONSIVE
+================================= */
+
+@media (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* COMMON WRAPPER */
+    .wrapper {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    /* HEADER */
+    header {
+        height: 80px;
+        padding: 0 20px;
+    }
+
+    header h1 {
+        margin-left: 0;
+        font-size: 22px;
+    }
+
+    header ul {
+        margin-right: 0;
+    }
+
+    header ul li {
+        margin-right: 12px;
+    }
+
+    /* BACKGROUND VIDEO */
+    section#vdo video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* HERO */
+    #hero {
+        height: 100vh;
+        min-height: 600px;
+    }
+
+    #hero .wrapper {
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-content {
+        position: relative;
+        top: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-content p.one,
+    .hero-content p.two,
+    .hero-content h1,
+    .hero-content .btn {
+        margin-left: 0;
+    }
+
+    .hero-content p.one {
+        margin-top: 0;
+    }
+
+    .hero-content h1 {
+        font-size: 35px;
+    }
+
+    /* ABOUT */
+    #about,
+    #about .about-content {
+        height: auto;
+    }
+
+    .about-content h1 {
+        font-size: 26px;
+    }
+
+    .about-content hr {
+        width: 80%;
+    }
+
+    .about-content div.container {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .about-content div.container div.left {
+        width: 100%;
+        max-width: 400px;
+        height: 450px;
+    }
+
+    .about-content div.container div.right {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        min-height: 400px;
+        padding: 25px;
+    }
+
+    .about-content div.container div.right h2 {
+        margin-top: 25px;
+        font-size: 30px;
+    }
+
+    .about-content div.container div.right hr {
+        width: 100%;
+    }
+
+    .about-content div.container div.right p.one {
+        margin-top: 30px;
+    }
+
+    .about-content div.container div.right p.two {
+        margin-top: 25px;
+    }
+
+    .about-content div.container div.right .btn {
+        margin-top: 35px;
+    }
+
+    /* VILLAINS */
+    #villans {
+        height: auto;
+    }
+
+    #villans div.container {
+        height: auto;
+    }
+
+    #villans ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    #villans ul li {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* LEGACY */
+    #legacy {
+        height: auto;
+    }
+
+    #legacy div.container {
+        height: auto;
+    }
+
+    #legacy ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    #legacy ul li {
+        width: 100%;
+        height: auto;
+    }
+
+    #legacy ul li img {
+        height: 350px;
+    }
+
+    /* SPIDER VERSE */
+    #spider-verse {
+        height: auto;
+    }
+
+    #spider-verse div.container {
+        height: auto;
+    }
+
+    #spider-verse div.container ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    #spider-verse div.container ul li {
+        width: 100%;
+    }
+
+    #spider-verse div.container ul li img {
+        height: 300px;
+    }
+
+    #spider-verse div.container .bottom {
+        margin-top: 40px;
+    }
+
+    /* INTRO */
+    #intro-vdo {
+        height: 100%;
+        inset: 0;
+    }
+
+}
+
+
+/* =================================
+   MOBILE RESPONSIVE
+================================= */
+
+@media (max-width: 480px) {
+
+    /* HEADER */
+    header {
+        height: auto;
+        min-height: 75px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        padding: 15px 10px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header ul {
+        width: 100%;
+        justify-content: center;
+        gap: 25px;
+        margin: 0;
+    }
+
+    header ul li {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    /* HERO */
+    #hero {
+        min-height: 650px;
+    }
+
+    .hero-content p.one {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .hero-content p.two {
+        font-size: 10px;
+    }
+
+    /* ABOUT */
+    #about .wrapper {
+        padding: 50px 18px;
+    }
+
+    .about-content h1 {
+        font-size: 21px;
+    }
+
+    .about-content div.container div.left {
+        height: 350px;
+    }
+
+    .about-content div.container div.right {
+        min-height: 370px;
+        padding: 20px;
+    }
+
+    .about-content div.container div.right h2 {
+        font-size: 25px;
+    }
+
+    .about-content div.container div.right p {
+        font-size: 13px;
+    }
+
+    .about-content div.container div.right .btn {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    /* VILLAINS */
+    #villans {
+        padding-bottom: 40px;
+    }
+
+    #villans h1 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    #villans h2 {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #villans ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 30px;
+    }
+
+    #villans ul li {
+        height: 230px;
+    }
+
+    #villans button {
+        margin-bottom: 20px;
+    }
+
+    /* LEGACY */
+    #legacy {
+        padding-bottom: 40px;
+    }
+
+    #legacy div.container h1 {
+        font-size: 28px;
+    }
+
+    #legacy div.container p {
+        font-size: 12px;
+    }
+
+    #legacy ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    #legacy ul li img {
+        height: 230px;
+    }
+
+    #legacy ul li h3 {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    #legacy ul li span {
+        font-size: 9px;
+    }
+
+    /* SPIDER VERSE */
+    #spider-verse {
+        padding-bottom: 40px;
+    }
+
+    #spider-verse div.container h2 {
+        font-size: 15px;
+    }
+
+    #spider-verse div.container h1 {
+        font-size: 25px;
+    }
+
+    #spider-verse div.container p {
+        font-size: 10px;
+    }
+
+    #spider-verse div.container ul {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-top: 25px;
+    }
+
+    #spider-verse div.container ul li img {
+        height: 350px;
+    }
+
+    #spider-verse div.container ul li h3 {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    #spider-verse div.container ul li span {
+        font-size: 11px;
+    }
+
+    #spider-verse div.container .bottom {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    #spider-verse div.container button {
+        width: 100%;
+        max-width: 220px;
+        height: 40px;
+        margin-top: 15px;
+    }
+
+    /* INTRO SCREEN */
+    #spidy {
+        z-index: 2;
+        left: 50%;
+        top: 40%;
+        width: calc(100% - 30px);
+        padding: 15px 10px;
+        font-size: 30px;
+        text-align: center;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+
+    #spidy.show {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    #btn {
+        z-index: 2;
+        left: 50%;
+        top: 60%;
+        width: 170px;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+
+    #btn.show {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+}
+
+/* FIX LEGACY AND SPIDER-VERSE MOBILE LAYOUT */
+
+@media (max-width: 600px) {
+
+    /* LEGACY */
+    #legacy ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px 12px;
+    }
+
+    #legacy ul li:nth-child(3) {
+        grid-column: 1 / -1;
+        width: 50%;
+        justify-self: center;
+    }
+
+    #legacy ul li img {
+        height: 280px;
+    }
+
+
+    /* SPIDER VERSE */
+    #spider-verse div.container ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px 12px;
+    }
+
+    #spider-verse div.container ul li:nth-child(3) {
+        grid-column: 1 / -1;
+        width: 50%;
+        justify-self: center;
+    }
+
+    #spider-verse div.container ul li img {
+        height: 280px;
+    }
+
+}
+
+
+/* SMALL MOBILE PHONES */
+
+@media (max-width: 380px) {
+
+    #legacy ul,
+    #spider-verse div.container ul {
+        grid-template-columns: 1fr;
+    }
+
+    #legacy ul li:nth-child(3),
+    #spider-verse div.container ul li:nth-child(3) {
+        grid-column: auto;
+        width: 100%;
+    }
+
 }
